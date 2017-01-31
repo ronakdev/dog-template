@@ -14,6 +14,7 @@
 					<p>{{ page.phone_number_one }}</p>
 					<p>{{ page.general_info_two }}</p>
 					<p>{{ page.phone_number_two }}</p>
+					<p>{{ page.general_info_three }}</p>
 					<h4>{{ page.hours_title }}</h4>
 					{{ each hours_of_operation as hours sort by hours.sort_order }}
 					<p><span class="days">{{ hours.day_of_week}}</span> {{ if {hours.open} }}<span class="pull-right">{{hours.open}}am - {{ hours.close}}pm</span>{{ else }}<span class="pull-right">Closed</span>{{ end-if }}</p>

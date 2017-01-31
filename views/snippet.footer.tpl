@@ -12,6 +12,8 @@
 				<br>
 				<p>{{ contact_us.first().general_info_two }}<p>
 				<p>{{ contact_us.first().phone_number_two }}<p>
+				<br>
+				<p>{{ page.general_info_three }}</p>
 				<div class="row">
 					{{ each footer_logos as fl sort by fl.sort_order }}
 					{{ if {index} % 2 == 1 && {index} != 1 }}

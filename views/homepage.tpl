@@ -135,7 +135,7 @@
 {{ if {index} % 2 == 0 }}
 <section class="portfolio bg-light-gray">
 	{{ else if {index} % 2 == 1 }}
-	<section class="portfolio bg-light-gray" style="background-image:url('{{ abtsec.about_section_image.getImage(500, 500, crop) }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
+	<section class="portfolio bg-light-gray" style="background-image:url('{{ abtsec.about_section_image.getImage(500, 500, crop) }}');background-size:contain;background-position:left bottom;background-repeat:no-repeat;">
 		{{ end-if }}
 		<div class="container">
 			<div class="row">

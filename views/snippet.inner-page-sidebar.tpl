@@ -7,8 +7,9 @@
 		<h5>{{ ct.client_first_name }} {{ ct.client_last_name.substr(0,1) }}. </h5>
 		<h6>{{ ct.client_location }}</h6>
 	</div>
-	{{ end-each }}
 	<hr/>
+	{{ end-each }}
+	
 	<a class="btn btn-primary" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{clippings.petdesk_ref_code}}" target="_blank">Request Appointment</a>
 	{{ if {page.body_text.substr(4500,4501)} != '' }}
 	{{ each promo as pro sort by pro.sort_order limit 1 }}

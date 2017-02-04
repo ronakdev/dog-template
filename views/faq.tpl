@@ -26,7 +26,7 @@
 					</div>
 					{{ end-each }}
 				</div>
-				<div class="col-md-3" >
+				<div class="col-lg-3 col-md-4" >
 					<div class="desktop">
 						{{ include sectionlinks }}
 						{{ include inner-page-sidebar }}

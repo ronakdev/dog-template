@@ -27,7 +27,7 @@
 				</div>
 				</div>
 			<div class="col-lg-3 col-md-6 basic">
-				<h4>{{ contact_us.first().hours_title }}</h4>
+				<h4 class="basic">{{ contact_us.first().hours_title }}</h4>
 				{{ each hours_of_operation as hours sort by hours.sort_order}}
 				<p>{{ hours.day_of_week}} {{ if {hours.open} }}<span class="pull-right">{{hours.open}}am - {{ hours.close}}pm</span>{{ else }}<span class="pull-right">Closed</span>{{ end-if }}</p>
 				{{ end-each }}

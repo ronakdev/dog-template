@@ -18,11 +18,15 @@
         <!-- CLIPPINGS -->
         <clippings>
             <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
+            <text name="hero_lead_in_font_size" name_friendly="Hero Lead-in Font Size (pixels)"><![CDATA[40]]></text>
+            <text name="hero_body_text_font_size" name_friendly="Hero Body Text Font Size (pixels)"><![CDATA[75]]></text>
+            <text name="homepage_header_font_style" name_friendly="Homepage Hero Text Font Style (separate multiple value with a comma)"><![CDATA[Droid Serif, serif]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="logo_height" name_friendly="Logo Height (pixels)"><![CDATA[50]]></text>
             <text name="below_logo_text" name_friendly="Below Logo Text"><![CDATA[]]></text>
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[PetDesk with Zesty.io]]></text>
             <text name="phone" name_friendly="Main Phone"><![CDATA[555-555-5555]]></text>
+            <text name="telephone_number_height" name_friendly="Telephone Number Height (pixels)"><![CDATA[24]]></text>
             <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code"><![CDATA[1359]]></text>
             <wysiwyg_advanced name="pop_up_content" name_friendly="Pop-up Content"><![CDATA[]]></wysiwyg_advanced>
         </clippings>
@@ -138,7 +142,7 @@
                     <text name="second_line" name_friendly="Second Line" list="1" />
                     <files name="background_video" name_friendly="Background Video" list="1" />
                     <images name="background_image" name_friendly="Background Image (Fallback Image if Video)" list="1" />
-
+                    <dropdown name="horizontal_alignment_for_mobile" name_friendly="Horizontal Alignment for Mobile" options="left:Left;center:Center;right:Right;" list="1" />
                     <text name="button_text" name_friendly="Button Text" list="1" />
                     <internal_link name="links_to" name_friendly="Links To" list="1" />
                     <sort name="sort_order" name_friendly="Sort Order" list="1" />
@@ -149,6 +153,7 @@
                         <second_line><![CDATA[Your partner in whole pet care.]]></second_line>
                         <background_video><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/bigstock-brother-and-sister-petting-the-88547789_1.mp4]]></background_video>
                         <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_image>
+                        <horizontal_alignment_for_mobile><![CDATA[Center]]></horizontal_alignment_for_mobile>
                         <button_text><![CDATA[Learn More]]></button_text>
                         <links_to><![CDATA[501]]></links_to>
                         <sort_order><![CDATA[1]]></sort_order>
@@ -158,6 +163,7 @@
                         <second_line><![CDATA[Call</br>1-800-555-5555]]></second_line>
                         <background_video></background_video>
                         <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_image>
+                        <horizontal_alignment_for_mobile><![CDATA[Center]]></horizontal_alignment_for_mobile>
                         <button_text><![CDATA[Contact Us]]></button_text>
                         <links_to><![CDATA[521]]></links_to>
                         <sort_order><![CDATA[1]]></sort_order>

@@ -18,13 +18,13 @@
 					</a>
 					{{ else }}
 					<a class="navbar-brand page-scroll site-name  pull-left" href="/">{{clippings.site_name}}</a>
-					{{end-if}}
+					{{ end-if }}
 				</div>
 			</div>
 			<div class="col-sm-4" >
 				<div class="number text-center" >
 					<h6 class="hidden-sm-down" >Call Now:</h6>
-					<h3><a href="tel:{{ clippings.phone }}" >{{ clippings.phone }}</a></h3>
+					<h3 style="font-size: {{ clippings.telephone_number_height }}px;"><a href="tel:{{ clippings.phone }}" >{{ clippings.phone }}</a></h3>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<!-- /.navbar-collapse -->

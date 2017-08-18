@@ -92,7 +92,7 @@ h2 {
 h3 {
 	font-size: @font-size-h3;
 	@media(max-width: @sm) {
-		font-size: @font-size-h3 * 0.9 !important;
+		font-size: @font-size-h3 * 0.9;
 	}
 }
 h4 {
@@ -183,6 +183,9 @@ img {
 			margin:2px 0;
 			a {
 				color:@brand-primary;
+			}
+			@media(max-width: @sm) {
+				font-size: 24px !important;
 			}
 		}
 	}

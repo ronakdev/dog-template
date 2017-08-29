@@ -5,12 +5,13 @@
 		{{ each homepage_slides as slide sort by slide.sort_order }}
 		{{ if {slide.background_video} }}
 		<div class=""  >
-			<header style="{{ if {slide.horizontal_alignment_for_mobile} }}background-position: {{ slide.horizontal_alignment_for_mobile }};{{ end-if }}" data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
-					<div class="cc">
+			<header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
+				<div class="cr" >
+					<div class="cc" >
 						<div class="container">
 							<div class="intro-text">
-								<div class="intro-lead-in" style="font-family: {{ clippings.homepage_header_font_style }}; font-size: {{ clippings.hero_lead_in_font_size }}px;">{{slide.title}}</div>
-								<div class="intro-heading" style="font-family: {{ clippings.homepage_header_font_style }}; font-size: {{ clippings.hero_body_text_font_size }}px;">{{slide.second_line}}</div>
+								<div class="intro-lead-in">{{slide.title}}</div>
+								<div class="intro-heading">{{slide.second_line}}</div>
 								{{ if {slide.button_text} }}
 								<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
 								{{ end-if }}

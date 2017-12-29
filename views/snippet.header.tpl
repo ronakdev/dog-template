@@ -30,7 +30,7 @@
 				<!-- /.navbar-collapse -->
 			</div>
 			<div class="col-sm-4" >
-				<a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
+				<a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
 			</div>
 		</div>
 	</div>

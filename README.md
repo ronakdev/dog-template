@@ -1,2 +1,2 @@
 # PetDesk Dog Blueprint
-![Plate cover](https://github.com/kakoga/z-vet-template1.0/blob/master/shield.png)
+![Plate cover](https://raw.githubusercontent.com/PetDesk/dog-template/master/shield.png)

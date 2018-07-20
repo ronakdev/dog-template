@@ -914,7 +914,7 @@
               </items>
           </templateset>
           <!-- About Us Datasets -->
-          <dataset name="employee_category" name_friendly="Employee Category" parent_item="meet-the-team">
+          <pageset name="employee_category" name_friendly="Employee Category" parent_item="meet-the-team">
             <fields>
               <text name="employee_category" name_friendly="Employee Category" list="1" />
               <sort name="sort_order" name_friendly="Sort Order" list="1" />
@@ -929,8 +929,8 @@
                 <sort_order><![CDATA[2]]></sort_order>
               </item>
             </items>
-          </dataset>
-          <dataset name="employees" name_friendly="Employees" parent_item="meet-the-team">
+          </pageset>
+          <pageset name="employees" name_friendly="Employees" parent_item="meet-the-team">
               <fields>
                   <text name="employee_first_name" name_friendly="Employee First Name" list="1" />
                   <text name="employee_last_name" name_friendly="Employee Last Name" list="1" />
@@ -973,7 +973,7 @@
                   <sort_order><![CDATA[4]]></sort_order>
                 </item>
               </items>
-          </dataset>
+          </pageset>
           <dataset name="client_testimonials" name_friendly="Client Testimonials" parent_item="testimonials">
               <fields>
                   <text name="client_first_name" name_friendly="Client First Name" list="1" />
